@@ -18,6 +18,7 @@ setup(
     author="NachABR",
     author_email=None,
     packages=find_packages(),
+    install_requires=["aiohttp >=3.7.4"],
     license="MIT",
     classifiers=[
         'License :: OSI Approved :: MIT License',
