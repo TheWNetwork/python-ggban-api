@@ -28,8 +28,8 @@ Comentarios: {[com.__dict__ for com in report.comment]}
     )
     print("Report test:")
     try:
-        report_test = 
-        print(f"Report ID: {await client.new_report(user_id=1178259323, reported_id=5138672830, reason="TEST")}")
+        report_test = await client.new_report(user_id=1178259323, reported_id=5138672830, reason="TEST")
+        print(f"Report ID: {report_test}")
     except Exception as error:
         print(error)
 
